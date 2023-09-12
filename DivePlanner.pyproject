@@ -1,0 +1,3 @@
+{
+    "files": ["formulas/imperial.py","formulas/metric.py","widget.py","form.ui","formulas/o2_table_generator.py","formulas/common.py",".gitignore"]
+}

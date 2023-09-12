@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>796</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="O2_table_tab">
+    <attribute name="title">
+     <string>O2 Tables</string>
+    </attribute>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>7</y>
+       <width>771</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="O2Table">
+      <item>
+       <layout class="QHBoxLayout" name="unitRadioButtons">
+        <item>
+         <widget class="QRadioButton" name="O2Table_metricRadioButton">
+          <property name="text">
+           <string>Metric</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="O2Table_imperialRadioButton">
+          <property name="mouseTracking">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>Imperial</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="o2Combo">
+        <item>
+         <widget class="QLabel" name="O2Table_o2Label">
+          <property name="text">
+           <string>Select O2 Percentage:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="O2Table_o2ComboBox">
+          <item>
+           <property name="text">
+            <string>21</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>22</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>23</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>24</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>25</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>26</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>27</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>28</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>29</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>30</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>31</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>32</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>33</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>34</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>35</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>36</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>37</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>38</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>39</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>40</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>41</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>42</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>43</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>44</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>45</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>46</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>47</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>48</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>49</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>50</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>51</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>52</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>53</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>54</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>55</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>56</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>57</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>58</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>59</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>60</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>61</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>62</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>63</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>64</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>65</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>66</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>67</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>68</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>69</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>70</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>71</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>72</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>73</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>74</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>75</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>76</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>77</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>78</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>79</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>81</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>82</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>83</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>84</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>85</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>86</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>87</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>88</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>89</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>90</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>91</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>92</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>93</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>94</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>95</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>96</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>97</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>98</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>99</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>100</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="O2Table_CalculateButton">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QTableView" name="O2Table_ResultTable">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>771</width>
+       <height>521</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="metric_formulas_tab">
+    <attribute name="title">
+     <string>Metric Formulas</string>
+    </attribute>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>181</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="EAD">
+      <item>
+       <widget class="QLabel" name="EAD_Title">
+        <property name="text">
+         <string>Equivalent Air Depth (EAD)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="EAD_Depth">
+        <item>
+         <widget class="QLabel" name="EAD_DepthLabel">
+          <property name="text">
+           <string>Depth:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="EAD_DepthField">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="fractionO2">
+        <item>
+         <widget class="QLabel" name="EAD_O2Label">
+          <property name="text">
+           <string>Fraction O2:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="EAD_O2ComboBox">
+          <item>
+           <property name="text">
+            <string>21</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>22</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>23</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>24</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>25</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>26</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>27</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>28</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>29</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>30</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>31</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>32</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>33</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>34</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>35</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>36</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>37</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>38</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>39</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>40</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>41</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>42</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>43</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>44</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>45</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>46</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>47</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>48</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>49</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>50</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>51</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>52</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>53</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>54</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>55</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>56</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>57</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>58</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>59</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>60</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>61</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>62</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>63</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>64</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>65</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>66</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>67</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>68</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>69</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>70</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>71</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>72</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>73</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>74</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>75</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>76</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>77</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>78</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>79</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>81</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>82</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>83</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>84</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>85</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>86</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>87</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>88</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>89</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>90</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>91</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>92</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>93</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>94</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>95</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>96</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>97</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>98</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>99</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>100</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="EAD_CalculateButton">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="EAD_ResultLabel">
+        <property name="text">
+         <string>Result</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>181</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="MaxDepth">
+      <item>
+       <widget class="QLabel" name="MD_Title">
+        <property name="text">
+         <string>Max Depth (Bottom or Deco)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="MD_fractionO2">
+        <item>
+         <widget class="QLabel" name="MD_O2Title">
+          <property name="text">
+           <string>Fraction O2:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="MD_O2ComboBox">
+          <item>
+           <property name="text">
+            <string>21</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>22</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>23</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>24</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>25</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>26</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>27</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>28</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>29</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>30</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>31</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>32</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>33</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>34</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>35</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>36</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>37</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>38</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>39</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>40</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>41</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>42</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>43</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>44</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>45</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>46</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>47</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>48</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>49</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>50</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>51</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>52</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>53</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>54</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>55</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>56</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>57</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>58</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>59</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>60</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>61</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>62</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>63</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>64</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>65</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>66</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>67</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>68</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>69</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>70</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>71</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>72</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>73</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>74</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>75</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>76</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>77</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>78</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>79</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>81</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>82</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>83</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>84</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>85</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>86</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>87</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>88</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>89</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>90</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>91</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>92</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>93</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>94</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>95</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>96</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>97</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>98</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>99</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>100</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="MD_PPO2">
+        <item>
+         <widget class="QRadioButton" name="MD_14">
+          <property name="text">
+           <string>Bottom (1.4)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="MD_16">
+          <property name="text">
+           <string>Deco (1.6)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="MD_CalculateButton">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="MD_ResultLabel">
+        <property name="text">
+         <string>Result:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>180</y>
+       <width>191</width>
+       <height>166</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="TurnPressure">
+      <item>
+       <widget class="QLabel" name="TP_Title">
+        <property name="text">
+         <string>Turn Pressure</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="TP_BottomDepth">
+        <item>
+         <widget class="QLabel" name="TP_BottomDepthLabel">
+          <property name="text">
+           <string>Bottom Depth:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="TP_BottomDepthField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="TP_StartPressure">
+        <item>
+         <widget class="QLabel" name="TP_StartPressureLabel">
+          <property name="text">
+           <string>Start Pressure:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="TP_StartPressureField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="TP_CylinderSize">
+        <item>
+         <widget class="QLabel" name="TP_CylinderLabel">
+          <property name="text">
+           <string>Cylinder Size</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="TP_CylinderField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="TP_CalculateButton">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="TP_ResultLabel">
+        <property name="text">
+         <string>Result:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>10</y>
+       <width>191</width>
+       <height>226</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="SACRate">
+      <item>
+       <widget class="QLabel" name="SACRate_Title">
+        <property name="text">
+         <string>SAC Rate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="SAC_Bar">
+        <item>
+         <widget class="QLabel" name="SAC_BarLabel">
+          <property name="text">
+           <string>Bar Used:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="SAC_BarField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="SAC_Cylinder">
+        <item>
+         <widget class="QLabel" name="SAC_CylinderLabel">
+          <property name="text">
+           <string>Cylinder Size:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="SAC_CylinderField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SAC_DoubleCheckbox">
+        <property name="text">
+         <string>Doubles?</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="SAC_Depth">
+        <item>
+         <widget class="QLabel" name="SAC_DepthLabel">
+          <property name="text">
+           <string>Average Depth:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="SAC_DepthField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="SAC_Time">
+        <item>
+         <widget class="QLabel" name="SAC_TimeLabel">
+          <property name="text">
+           <string>Time:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="SAC_TimeField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SAC_CalculateButton">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="SAC_ResultLabel">
+        <property name="text">
+         <string>Result:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>240</y>
+       <width>191</width>
+       <height>166</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="GasRequirementEstimate">
+      <item>
+       <widget class="QLabel" name="GRE_Title">
+        <property name="text">
+         <string>Gas Requirement Estimate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="GRE_Time">
+        <item>
+         <widget class="QLabel" name="GRE_TimeLabel">
+          <property name="text">
+           <string>Time:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="GRE_TimeField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="GRE_SAC">
+        <item>
+         <widget class="QLabel" name="GRE_SACLabel">
+          <property name="text">
+           <string>SAC Rate</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="GRE_SACField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="GRE_Depth">
+        <item>
+         <widget class="QLabel" name="GRE_DepthLabel">
+          <property name="text">
+           <string>Depth</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="GRE_DepthField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="GRE_CalculateButton">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="GRE_ResultLabel">
+        <property name="text">
+         <string>Result:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>410</y>
+       <width>181</width>
+       <height>134</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="ActualGasSupply">
+      <item>
+       <widget class="QLabel" name="AGS_Title">
+        <property name="text">
+         <string>Actual Gas Supply</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="AGS_Volume">
+        <item>
+         <widget class="QLabel" name="AGS_VolumeLabel">
+          <property name="text">
+           <string>Volume:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="AGS_VolumeField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="AGS_Bar">
+        <item>
+         <widget class="QLabel" name="AGS_BarLabel">
+          <property name="text">
+           <string>Bar:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="AGS_BarField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="AGS_CalculateButton">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="AGS_ResultLabel">
+        <property name="text">
+         <string>Result: </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>10</y>
+       <width>191</width>
+       <height>166</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="AscentTime">
+      <item>
+       <widget class="QLabel" name="AT_Title">
+        <property name="text">
+         <string>Ascent Time</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="AT_BottomDepth">
+        <item>
+         <widget class="QLabel" name="AT_BottomDepthLabel">
+          <property name="text">
+           <string>Bottom Depth:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="AT_BottomDepthField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="AT_StopDepth">
+        <item>
+         <widget class="QLabel" name="AT_StopDepthLabel">
+          <property name="text">
+           <string>Stop Depth:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="AT_StopDepthField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="AT_AscentRate">
+        <item>
+         <widget class="QLabel" name="AT_AscentRateLabel">
+          <property name="text">
+           <string>Ascent Rate:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="AT_AscentRateField"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="AT_CalculateButton">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="AT_ResultLabel">
+        <property name="text">
+         <string>Result:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
