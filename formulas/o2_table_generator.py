@@ -11,6 +11,7 @@ def calculate_table_for_o2_fraction_metric(o2_fraction):
     eads = []
     po2s = []
     otu_mins = []
+    cns_mins = []
 
     # Calculate values for each depth
     for depth in depths:
@@ -25,6 +26,8 @@ def calculate_table_for_o2_fraction_metric(o2_fraction):
 
         otu_mins.append(round(common.otu_min(current_po2), 2))
 
+        cns_mins.append(round(common.cns_min(current_po2), 2))
+
     # Adjust the depths list to match the length of the po2s list
     depths = depths[:len(po2s)]
 
@@ -34,7 +37,8 @@ def calculate_table_for_o2_fraction_metric(o2_fraction):
         'Depth': depths,
         'EAD': eads,
         'PO2': po2s,
-        'OTU/min': otu_mins
+        'OTU/min': otu_mins,
+        'CNS/min': cns_mins
     }
 
 def calculate_table_for_o2_fraction_imperial(o2_fraction):
@@ -46,6 +50,7 @@ def calculate_table_for_o2_fraction_imperial(o2_fraction):
     eads = []
     po2s = []
     otu_mins = []
+    cns_mins = []
 
     # Calculate values for each depth
     for depth in depths:
@@ -60,6 +65,8 @@ def calculate_table_for_o2_fraction_imperial(o2_fraction):
 
         otu_mins.append(round(common.otu_min(current_po2), 2))
 
+        cns_mins.append(round(common.cns_min(current_po2), 2))
+
     # Adjust the depths list to match the length of the po2s list
     depths = depths[:len(po2s)]
 
@@ -69,5 +76,6 @@ def calculate_table_for_o2_fraction_imperial(o2_fraction):
         'Depth': depths,
         'EAD': eads,
         'PO2': po2s,
-        'OTU/min': otu_mins
+        'OTU/min': otu_mins,
+        'CNS/min': cns_mins
     }

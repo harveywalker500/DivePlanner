@@ -17,7 +17,7 @@ class Widget(QWidget):
         self.ui = Ui_Widget()
         self.ui.setupUi(self)
 
-        # Connect the calculate button to the function
+        # Connect calculate for metric functions
         self.ui.O2Table_CalculateButton.clicked.connect(self.calculate_o2_tables)
         self.ui.EAD_CalculateButton.clicked.connect(self.calculate_ead_metric)
         self.ui.MD_CalculateButton.clicked.connect(self.calculate_md_metric)
@@ -26,6 +26,11 @@ class Widget(QWidget):
         self.ui.AGS_CalculateButton.clicked.connect(self.calculate_AGS_metric)
         self.ui.AT_CalculateButton.clicked.connect(self.calculate_AT_metric)
         self.ui.TP_CalculateButton.clicked.connect(self.calculate_TP_metric)
+
+        self.ui.TF_CalculateFO2Button.clicked.connect(self.calculate_FO2)
+        self.ui.TF_CalculatePO2Button.clicked.connect(self.calculate_PO2)
+        self.ui.TF_CalculatePButton.clicked.connect(self.calculate_P)
+        self.ui.GR_CalculateButton.clicked.connect(self.calculate_GR)
 
     def show_warning(self):
         warning_text = (
@@ -55,14 +60,15 @@ class Widget(QWidget):
             data = calculate_table_for_o2_fraction_imperial(o2_fraction)
 
         model = QStandardItemModel()
-        model.setHorizontalHeaderLabels(['Depth', 'EAD', 'PO2', 'OTU/min'])
+        model.setHorizontalHeaderLabels(['Depth', 'EAD', 'PO2', 'OTU/min', 'CNS/min'])
 
         for i in range(len(data['Depth'])):
             depth_item = QStandardItem(str(data['Depth'][i]))
             ead_item = QStandardItem(str(data['EAD'][i]))
             po2_item = QStandardItem(str(data['PO2'][i]))
             otu_min_item = QStandardItem(str(data['OTU/min'][i]))
-            model.appendRow([depth_item, ead_item, po2_item, otu_min_item])
+            cns_min_item = QStandardItem(str(data['CNS/min'][i]))
+            model.appendRow([depth_item, ead_item, po2_item, otu_min_item, cns_min_item])
 
             self.ui.O2Table_ResultTable.setModel(model)
             self.ui.O2Table_ResultTable.verticalHeader().hide()
@@ -134,8 +140,45 @@ class Widget(QWidget):
 
         self.ui.TP_ResultLabel.setText(f"Turn Pressure: {result: .2f} bar")
 
+    def calculate_FO2(self):
+        po2 = float(self.ui.TF_PO2Field.text())
+        p = float(self.ui.TF_PField.text())
+
+        result = round(c.fo2(po2, p))
+
+        self.ui.TF_FO2ComboBox.setCurrentIndex(result)
+
+    def calculate_PO2(self):
+        fo2 = float(self.ui.TF_FO2ComboBox.currentText())
+        p = float(self.ui.TF_PField.text())
+
+        result = c.po2(fo2, p)
+        print(result)
+
+        self.ui.TF_PO2Field.setText(str(result))
+
+    def calculate_P(self):
+        po2 = float(self.ui.TF_PO2Field.text())
+        fo2 = float(self.ui.TF_FO2ComboBox.currentText())
+
+        result = c.p(fo2, po2)
+
+        self.ui.TF_PField.setText(f"{result: .2f}")
+
+    def calculate_GR(self):
+        volume = float(self.ui.GR_VolumeField.text())
+        reserve = float(self.ui.GR_ReserveField.text())
+
+        result = c.gas_reserve(volume, reserve)
+
+        self.ui.GR_ResultLabel.setText(f"Gas Reserve: {result: .2f} L")
+
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    app.setApplicationName("DivePlanner")
+    app.setApplicationDisplayName("DivePlanner")
+    app.setApplicationVersion("0.0.1")
     widget = Widget()
     widget.show()
     sys.exit(app.exec())

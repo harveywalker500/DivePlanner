@@ -1,3 +1,3 @@
 {
-    "files": ["formulas/common.py","README.md","widget.py","formulas/metric.py","form.ui",".gitignore","formulas/o2_table_generator.py","formulas/imperial.py","LICENSE"]
+    "files": ["form.ui","formulas/common.py","formulas/metric.py","formulas/o2_table_generator.py","widget.py",".gitignore","LICENSE","README.md","formulas/imperial.py"]
 }
